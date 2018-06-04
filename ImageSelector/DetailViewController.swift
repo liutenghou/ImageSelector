@@ -11,12 +11,15 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
-    
+    var selectedImageName: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //load the image into UIImageView
+        if let imageToLoad = selectedImageName {
+            self.imageView.image = UIImage(named:imageToLoad)
+        }
     }
 
     override func didReceiveMemoryWarning() {

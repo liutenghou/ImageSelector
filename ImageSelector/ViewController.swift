@@ -15,8 +15,6 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         //load some images
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
@@ -26,10 +24,8 @@ class ViewController: UITableViewController {
             if item.hasPrefix("nssl"){
                 //load this picture
                 pictureNames.append(item)
-                
             }
         }
-        
         print(pictureNames)
     }
     
@@ -42,6 +38,17 @@ class ViewController: UITableViewController {
         cell.textLabel?.text = pictureNames[indexPath.row]
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //loads detail view controller from storyboard
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "DetailView") as? DetailViewController {
+            // set its selectedImage property
+            vc.selectedImageName = pictureNames[indexPath.row]
+            // push to navigation controller stash
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

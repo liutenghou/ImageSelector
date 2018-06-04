@@ -106,12 +106,12 @@
 				9E10BF4E20AA5F23008AFFB5 /* Content */,
 				9E10BF2E20AA495A008AFFB5 /* AppDelegate.swift */,
 				9E10BF3020AA495A008AFFB5 /* ViewController.swift */,
+				9EC669D020BCE465005482C3 /* DetailViewController.swift */,
+				9EC669D120BCE465005482C3 /* DetailViewController.xib */,
 				9E10BF3220AA495A008AFFB5 /* Main.storyboard */,
 				9E10BF3520AA495A008AFFB5 /* Assets.xcassets */,
 				9E10BF3720AA495A008AFFB5 /* LaunchScreen.storyboard */,
 				9E10BF3A20AA495A008AFFB5 /* Info.plist */,
-				9EC669D020BCE465005482C3 /* DetailViewController.swift */,
-				9EC669D120BCE465005482C3 /* DetailViewController.xib */,
 			);
 			path = ImageSelector;
 			sourceTree = "<group>";
