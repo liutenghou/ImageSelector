@@ -23,6 +23,10 @@
 		9E10BF6020AA5F23008AFFB5 /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E10BF5620AA5F23008AFFB5 /* nssl0049.jpg */; };
 		9E10BF6120AA5F23008AFFB5 /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E10BF5720AA5F23008AFFB5 /* nssl0051.jpg */; };
 		9E10BF6220AA5F23008AFFB5 /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E10BF5820AA5F23008AFFB5 /* nssl0091.jpg */; };
+		9EC669D220BCE465005482C3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC669D020BCE465005482C3 /* DetailViewController.swift */; };
+		9EC669D320BCE465005482C3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC669D020BCE465005482C3 /* DetailViewController.swift */; };
+		9EC669D420BCE465005482C3 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC669D120BCE465005482C3 /* DetailViewController.xib */; };
+		9EC669D520BCE465005482C3 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC669D120BCE465005482C3 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,8 @@
 		9E10BF5620AA5F23008AFFB5 /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
 		9E10BF5720AA5F23008AFFB5 /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
 		9E10BF5820AA5F23008AFFB5 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		9EC669D020BCE465005482C3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9EC669D120BCE465005482C3 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,8 @@
 				9E10BF3520AA495A008AFFB5 /* Assets.xcassets */,
 				9E10BF3720AA495A008AFFB5 /* LaunchScreen.storyboard */,
 				9E10BF3A20AA495A008AFFB5 /* Info.plist */,
+				9EC669D020BCE465005482C3 /* DetailViewController.swift */,
+				9EC669D120BCE465005482C3 /* DetailViewController.xib */,
 			);
 			path = ImageSelector;
 			sourceTree = "<group>";
@@ -226,6 +234,7 @@
 				9E10BF5F20AA5F23008AFFB5 /* nssl0046.jpg in Resources */,
 				9E10BF6020AA5F23008AFFB5 /* nssl0049.jpg in Resources */,
 				9E10BF5C20AA5F23008AFFB5 /* nssl0042.jpg in Resources */,
+				9EC669D420BCE465005482C3 /* DetailViewController.xib in Resources */,
 				9E10BF3620AA495A008AFFB5 /* Assets.xcassets in Resources */,
 				9E10BF6220AA5F23008AFFB5 /* nssl0091.jpg in Resources */,
 				9E10BF5B20AA5F23008AFFB5 /* nssl0041.jpg in Resources */,
@@ -237,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC669D520BCE465005482C3 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC669D220BCE465005482C3 /* DetailViewController.swift in Sources */,
 				9E10BF3120AA495A008AFFB5 /* ViewController.swift in Sources */,
 				9E10BF2F20AA495A008AFFB5 /* AppDelegate.swift in Sources */,
 			);
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E10BF4420AA495A008AFFB5 /* ImageSelectorTests.swift in Sources */,
+				9EC669D320BCE465005482C3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

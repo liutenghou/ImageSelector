@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -46,6 +47,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HRs-Yr-KaL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1068" y="27.436281859070466"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Ggh-7h-beT">
+            <objects>
+                <viewController storyboardIdentifier="DetailView" id="iDM-pE-y43" customClass="DetailViewController" customModule="ImageSelector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="daW-vc-igT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RpG-Qf-Xix">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RpG-Qf-Xix" firstAttribute="bottom" secondItem="bS0-am-MXd" secondAttribute="bottom" id="Egb-FZ-tgK"/>
+                            <constraint firstAttribute="trailing" secondItem="RpG-Qf-Xix" secondAttribute="trailing" id="FEE-CL-RKd"/>
+                            <constraint firstItem="RpG-Qf-Xix" firstAttribute="top" secondItem="daW-vc-igT" secondAttribute="top" id="T4R-my-YN4"/>
+                            <constraint firstItem="RpG-Qf-Xix" firstAttribute="leading" secondItem="daW-vc-igT" secondAttribute="leading" id="gS5-26-gO3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bS0-am-MXd"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="RpG-Qf-Xix" id="b2r-SZ-SyC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3J2-1Q-R75" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1768.8" y="26.53673163418291"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5ab-Mj-2E6">
